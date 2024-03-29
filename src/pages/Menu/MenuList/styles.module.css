@@ -1,0 +1,6 @@
+.menu-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    justify-content: start;
+}

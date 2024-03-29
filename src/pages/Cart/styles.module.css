@@ -1,0 +1,39 @@
+.title {
+   margin-bottom: 40px;
+}
+
+.summary-wrapper {
+   max-width: 512px;
+}
+
+.summary-wrapper hr {
+   border: 1px solid #F1F2F3;
+}
+
+.summary {
+   display: flex;
+   justify-content: space-between;
+   padding: 17px 0;
+}
+
+.summary div:last-child {
+   font-size: 19px;
+   display: flex;
+   align-items: center;
+}
+
+.summary div span {
+   font-size: 14px;
+   color: #9796A1;
+}
+
+.checkout {
+   display: flex;
+   justify-content: center;
+   max-width: 512px;
+   padding: 70px 0;
+}
+
+.summary-delivery {
+   gap: 5px;
+}

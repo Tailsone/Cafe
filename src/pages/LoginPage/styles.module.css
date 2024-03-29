@@ -1,0 +1,47 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.input-wrapper:first-of-type {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.button-wrapper {
+    margin: 45px 0 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.links-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+
+.links-wrapper a {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.links-wrapper a:hover {
+    color: var(--primary-hover-color);
+    font-weight: 600;
+}
+
+.error {
+    height: 20px;
+    margin-top: 10px;
+    color: red;
+    font-weight: 600;
+}

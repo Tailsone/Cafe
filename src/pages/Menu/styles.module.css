@@ -1,0 +1,36 @@
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.search-wrapper {
+    position: relative;
+}
+
+.search-wrapper img{
+    position: absolute;
+    top: 15px;
+    left: 7px;
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.search-wrapper img:hover {
+    opacity: 1;
+}
+
+.search {
+    padding: 16px 30px 16px 40px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    min-width: 200px;
+    border: 1px solid #EFEFEF;
+    background: #FCFCFD;
+}

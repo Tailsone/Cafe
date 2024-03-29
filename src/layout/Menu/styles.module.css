@@ -1,0 +1,81 @@
+.layout {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    min-width: 240px;
+    padding: 30px 0 55px 30px;
+    justify-content: space-between;
+}
+
+.logout-btn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 117px;
+    padding-left: 10px;
+}
+
+.link {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.link:hover {
+    color: var(--primary-color);
+}
+
+.active {
+    color: var(--primary-color);
+}
+
+.user-avatar {
+    width: 90px;
+    height: 90px;
+    filter: drop-shadow(0px 8px 40px rgba(255, 197, 41, 0.25));
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 47px;
+}
+
+.cart-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.user {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 21px;
+}
+
+.user-email {
+    color: #9EA1B1;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content {
+    width: 100%;
+    padding: 40px 64px;
+    border-left: 1px solid var(--separator-color);
+    overflow: auto;
+    scrollbar-gutter: stable;
+}
